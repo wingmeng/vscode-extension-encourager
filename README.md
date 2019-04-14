@@ -3,7 +3,7 @@
 > 最累的时候，也有鼓励师温情的陪伴与鼓励。
 
 <p align="center">
-  <img width="160" src="./images/logo.png" alt="encourager logo">
+  <img width="160" src="https://wingmeng.github.io/vscode-extension-encourager/images/logo.png" alt="encourager logo">
 </p>
 
 ## Requirements
@@ -15,7 +15,7 @@
 
 安装插件后，按 `F1` 输入 `call:❤ 召唤鼓励师` 或者在页面点击鼠标右键，选择 `❤ 召唤鼓励师`。
 
-![](./images/quick-start.gif)
+![quick start](https://wingmeng.github.io/vscode-extension-encourager/images/quick-start.gif)
 
 ## Features
 
@@ -32,7 +32,7 @@
 ## Settings
 
 | 配置项名称 | 描述 | 默认值 |
-|---|---|---|---|
+|----|----|----|
 | `encourager.yourName` | 鼓励师对你的称呼 | `小哥哥` |
 | `encourager.character` | 鼓励师性格类型的 id，默认内置：1.软萌型, 2.友善型, 3.领导型 | `1` |
 | `encourager.newCharacters` | 自定义新的鼓励师（见下文），Array 类型，可定义多个 | `[]` |
@@ -54,10 +54,12 @@
     "id": 5,
     "data": [
       {
-        "say": '{name}，晚上加完班饿了吧？我下面给你吃',
-        "img": 'xx/xx.jpg'
+        "say": "{name}，晚上加完班饿了吧？我下面给你吃",
+        "img": "xx/xx.jpg"
+      }, {
+        "say": "其他鼓励的话……",
+        "img": "xx/xx.jpg"
       }
-      // ……
     ]
   }
 ]
