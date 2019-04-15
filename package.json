@@ -2,7 +2,7 @@
 	"name": "encourager",
 	"displayName": "程序员鼓励师",
 	"description": "最累的时候，也有我温情的陪伴与鼓励",
-	"version": "1.0.0",
+	"version": "1.0.1",
   "icon": "images/logo.png",
   "publisher": "wingmeng",
   "license": "MIT",
