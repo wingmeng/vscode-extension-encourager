@@ -36,7 +36,6 @@
 | `encourager.yourName` | 鼓励师对你的称呼 | `小哥哥` |
 | `encourager.character` | 鼓励师性格类型的 id，默认内置：1.软萌型, 2.友善型, 3.领导型 | `1` |
 | `encourager.newCharacters` | 自定义新的鼓励师（见下文），Array 类型，可定义多个 | `[]` |
-| `encourager.useWsl` | Specify whether to use WSL or not | `false` |
 | `encourager.encouragePageDelay` | 鼓励页面的停留时间（秒），超时后会自动关闭；若设置为 <=0 的数则不自动关闭 | `6` |
 
 ## 如何自定义鼓励师？
